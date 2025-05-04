@@ -1,2 +1,10 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional custom CSS */
+.my-class {
+  @apply bg-blue-500 text-white; /* Using Tailwind's `@apply` */
+}
